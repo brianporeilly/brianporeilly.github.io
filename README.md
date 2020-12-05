@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/), and the underlying source code used to format and display that content is licensed under the [BSD 3-Clause License](LICENSE.md).
+The content of this project itself is licensed under the [Creative Commons Attribution 4.0 International license](LICENSE), and the underlying source code used to format and display that content is licensed under the [BSD 3-Clause License](LICENSE.md).
