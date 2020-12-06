@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/"><i class="fas fa-pen-nib"></i> Blog</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -21,19 +21,35 @@
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}"><i class="far fa-file"></i> {{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="/atom.xml">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <a class="sidebar-nav-item" href="/atom.xml"><i class="fas fa-rss"></i> RSS</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}"><i class="fab fa-github"></i> Source</a>
       {% if site.version != null %}
       <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
       <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
       {% endif %}
     </nav>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. <a href="/license">Some rights reserved.</a></p>
+    <p><i class="far fa-copyright"></i> {{ site.time | date: '%Y' }}. <a href="/license">Some rights reserved.</a></p>
+
+    <div class="icon-links">
+      <ul>
+        {% if site.icon-links.github %}<li><a href="https://github.com/{{ site.icon-links.github }}"><i class="fab fa-github"></i></a></li>{% endif %}
+        {% if site.icon-links.email %}<li><a href="mailto: {{ site.icon-links.email }}"><i class="far fa-envelope"></i></a></li>{% endif %}
+        {% if site.icon-links.twitter %}<li><a href="https://twitter.com/{{ site.icon-links.twitter }}"><i class="fab fa-twitter"></i></a></li>{% endif %}
+        {% if site.icon-links.facebook %}<li><a href="https://facebook.com/{{ site.icon-links.facebook }}"><i class="fab fa-facebook"></i></a></li>{% endif %}
+        {% if site.icon-links.keybase %}<li><a href="https://facebook.com/{{ site.icon-links.keybase }}"><i class="fab fa-keybase"></i></a></li>{% endif %}
+        {% if site.icon-links.reddit %}<li><a href="https://reddit.com/u/{{ site.icon-links.reddit }}"><i class="fab fa-keybase"></i></a></li>{% endif %}
+        {% if site.icon-links.stackoverflow %}<li><a href="https://stackoverflow.com/{{ site.icon-links.stackoverflow }}"><i class="fab fa-stackoverflow"></i></a></li>{% endif %}
+        {% if site.icon-links.youtube %}<li><a href="https://youtube.com/{{ site.icon-links.youtube }}"><i class="fab fa-youtube"></i></a></li>{% endif %}
+        {% if site.icon-links.pinterest %}<li><a href="https://pinterest.com/{{ site.icon-links.pinterest }}"><i class="fab fa-pinterest"></i></a></li>{% endif %}
+        <li><a href="/atom.xml"><i class="fas fa-rss"></i></a></li>
+      </ul>
+    </div>
+
   </div>
 </div>

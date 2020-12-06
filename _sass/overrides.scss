@@ -9,3 +9,10 @@
     display: none;
   }
 }
+.icon-links ul { display: inline; padding: 2px; }
+.icon-links li {
+  display: inline;
+  ::marker {
+    display: none;
+  }
+}

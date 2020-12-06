@@ -16,6 +16,13 @@ author:
   name:           Brian P O'Reilly
   url:            https://brianporeilly.com
 
+icon-links:
+  github: brianporeilly
+  email: contact@brianporeilly.com
+  twitter: brianporeilly
+  facebook: brianporeilly
+  keybase: brianporeilly
+
 paginate:         5
 
 plugins:
