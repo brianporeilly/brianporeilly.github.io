@@ -11,8 +11,7 @@ title: About
 
 ## License / Attributions
 
-The content of this project itself is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license,
-and the underlying source code used to format and display that content is licensed under the [MIT license](/LICENSE.md).
+License and copyright info: [LICENSE](/license)
 
 * Runs on [GitHub Pages](https://pages.github.com)
 * Built with [Jekyll](http://jekyllrb.com)

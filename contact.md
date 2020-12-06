@@ -9,8 +9,8 @@ title: Contact
 * Email me: <i class="far fa-envelope"></i> `contact@brianporeilly.com`
 
 Find me on a platform:
-* <i class="fab fa-github"></i> [https://github.com/brianporeilly]()
-* <i class="fab fa-facebook"></i> [https://facebook.com/brianporeilly]()
-* <i class="fab fa-twitter"></i>[https://twitter.com/brianporeilly]()
-* <i class="fab fa-keybase"></i> KeyBase: `brianporeilly`
+* <i class="fab fa-github"></i> GitHub: [brianporeilly](https://github.com/brianporeilly)
+* <i class="fab fa-facebook"></i> Facebook: [brianporeilly](https://facebook.com/brianporeilly)
+* <i class="fab fa-twitter"></i> Twitter: [@brianporeilly](https://twitter.com/brianporeilly)
+* <i class="fab fa-keybase"></i> Keybase: [brianporeilly](https://keybase.io/brianporeilly)
 * <i class="fas fa-question-circle"></i> etc (TBD)
