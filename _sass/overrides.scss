@@ -1,0 +1,11 @@
+.post-tags ul { display: inline; padding: 2px; }
+.post-tags li {
+  display: inline;
+  background-color: #b3b3b3;
+  text-align: center;
+  padding: 1px 3px 3px;
+  border-radius: 5px;
+  ::marker {
+    display: none;
+  }
+}
